@@ -1,0 +1,382 @@
+[Welcome to the rubiks solver]
+Would you like to enter your own cube? [y/q] (entering anything else will run premade test cases)*************************************
+Running IDA-star
+*************************************
+PROBLEM 0
+Solution Found with cost of 3 in search time of 0.010000000000000002 sec
+Nodes expanded = 71, states generated = 73, states cycle check pruned = 2, states cost bound pruned = 0
+ACTION was START
+()
+  bb
+  ww
+wgrrbyoo
+wgrrbyoo
+  yy
+  gg
+ ==> ACTION was F
+('F',)
+  bb
+  gg
+wyrrwyoo
+wyrrwyoo
+  bb
+  gg
+ ==> ACTION was F
+('F', 'F')
+  bb
+  yy
+wbrrgyoo
+wbrrgyoo
+  ww
+  gg
+ ==> ACTION was F
+('F', 'F', 'F')
+  bb
+  bb
+wwrryyoo
+wwrryyoo
+  gg
+  gg
+
+Final Solution:  F' 
+*************************************
+PROBLEM 1
+Solution Found with cost of 6 in search time of 0.07999999999999999 sec
+Nodes expanded = 1346, states generated = 1384, states cycle check pruned = 38, states cost bound pruned = 0
+ACTION was START
+()
+  bb
+  rr
+rgyyboww
+wwrgyybo
+  go
+  go
+ ==> ACTION was U
+('U',)
+  rb
+  rb
+yybowwrg
+wwrgyybo
+  go
+  go
+ ==> ACTION was U
+('U', 'U')
+  rr
+  bb
+bowwrgyy
+wwrgyybo
+  go
+  go
+ ==> ACTION was U
+('U', 'U', 'U')
+  br
+  br
+wwrgyybo
+wwrgyybo
+  go
+  go
+ ==> ACTION was R
+('U', 'U', 'U', 'R')
+  bg
+  bg
+wwroyyro
+wwroyyro
+  gb
+  gb
+ ==> ACTION was R
+('U', 'U', 'U', 'R', 'R')
+  bo
+  bo
+wwrbyygo
+wwrbyygo
+  gr
+  gr
+ ==> ACTION was R
+('U', 'U', 'U', 'R', 'R', 'R')
+  bb
+  bb
+wwrryyoo
+wwrryyoo
+  gg
+  gg
+
+Final Solution:  U' R' 
+*************************************
+PROBLEM 2
+Solution Found with cost of 9 in search time of 2.73 sec
+Nodes expanded = 38889, states generated = 40876, states cycle check pruned = 1987, states cost bound pruned = 0
+ACTION was START
+()
+  by
+  rg
+rgyoybrw
+wwroyobo
+  gb
+  gw
+ ==> ACTION was R
+('R',)
+  bo
+  ro
+rgybyygw
+wwrwobyo
+  gb
+  gr
+ ==> ACTION was R
+('R', 'R')
+  bb
+  rw
+rgyboyow
+wwrrbyoo
+  gy
+  gg
+ ==> ACTION was R
+('R', 'R', 'R')
+  bb
+  rr
+rgyyboww
+wwrgyybo
+  go
+  go
+ ==> ACTION was U
+('R', 'R', 'R', 'U')
+  rb
+  rb
+yybowwrg
+wwrgyybo
+  go
+  go
+ ==> ACTION was U
+('R', 'R', 'R', 'U', 'U')
+  rr
+  bb
+bowwrgyy
+wwrgyybo
+  go
+  go
+ ==> ACTION was U
+('R', 'R', 'R', 'U', 'U', 'U')
+  br
+  br
+wwrgyybo
+wwrgyybo
+  go
+  go
+ ==> ACTION was R
+('R', 'R', 'R', 'U', 'U', 'U', 'R')
+  bg
+  bg
+wwroyyro
+wwroyyro
+  gb
+  gb
+ ==> ACTION was R
+('R', 'R', 'R', 'U', 'U', 'U', 'R', 'R')
+  bo
+  bo
+wwrbyygo
+wwrbyygo
+  gr
+  gr
+ ==> ACTION was R
+('R', 'R', 'R', 'U', 'U', 'U', 'R', 'R', 'R')
+  bb
+  bb
+wwrryyoo
+wwrryyoo
+  gg
+  gg
+
+Final Solution:  R' U' R' 
+*************************************
+PROBLEM 3
+Solution Found with cost of 10 in search time of 5.170000000000001 sec
+Nodes expanded = 68419, states generated = 72301, states cycle check pruned = 3882, states cost bound pruned = 0
+ACTION was START
+()
+  by
+  wy
+rgrbrrgw
+wogoyobo
+  yb
+  gw
+ ==> ACTION was U
+('U',)
+  wb
+  yy
+rbrrgwrg
+wogoyobo
+  yb
+  gw
+ ==> ACTION was R
+('U', 'R')
+  wr
+  yo
+rbrbygyg
+wogwowbo
+  yb
+  gr
+ ==> ACTION was F
+('U', 'R', 'F')
+  wr
+  ob
+rygrygyg
+wbwbowbo
+  oy
+  gr
+ ==> ACTION was U
+('U', 'R', 'F', 'U')
+  ow
+  br
+grygygry
+wbwbowbo
+  oy
+  gr
+ ==> ACTION was R
+('U', 'R', 'F', 'U', 'R')
+  og
+  bb
+gryyoyry
+wbwrwgwo
+  ob
+  gr
+ ==> ACTION was F
+('U', 'R', 'F', 'U', 'R', 'F')
+  og
+  br
+gowybyry
+wbrybgwo
+  wo
+  gr
+ ==> ACTION was R
+('U', 'R', 'F', 'U', 'R', 'F', 'R')
+  oy
+  by
+gowobbry
+wbrrgygo
+  ww
+  gr
+ ==> ACTION was U
+('U', 'R', 'F', 'U', 'R', 'F', 'R', 'U')
+  bo
+  yy
+wobbrygo
+wbrrgygo
+  ww
+  gr
+ ==> ACTION was F
+('U', 'R', 'F', 'U', 'R', 'F', 'R', 'U', 'F')
+  bo
+  bo
+wwrbyygo
+wwrbyygo
+  gr
+  gr
+ ==> ACTION was R
+('U', 'R', 'F', 'U', 'R', 'F', 'R', 'U', 'F', 'R')
+  bb
+  bb
+wwrryyoo
+wwrryyoo
+  gg
+  gg
+
+Final Solution:  U R F U R F R U F R 
+*************************************
+PROBLEM 4
+Solution Found with cost of 10 in search time of 7.57 sec
+Nodes expanded = 90602, states generated = 96112, states cycle check pruned = 5510, states cost bound pruned = 0
+ACTION was START
+()
+  og
+  bw
+yrygryrb
+wogrwwoo
+  yb
+  gb
+ ==> ACTION was F
+('F',)
+  og
+  or
+yygybyrb
+wbrgwwoo
+  wr
+  gb
+ ==> ACTION was R
+('F', 'R')
+  oy
+  og
+yygrwbrb
+wbrbwygo
+  wo
+  gr
+ ==> ACTION was R
+('F', 'R', 'R')
+  or
+  ob
+yygowwgb
+wbrrybyo
+  wg
+  gr
+ ==> ACTION was U
+('F', 'R', 'R', 'U')
+  oo
+  br
+gowwgbyy
+wbrrybyo
+  wg
+  gr
+ ==> ACTION was R
+('F', 'R', 'R', 'U', 'R')
+  ow
+  br
+gowgygry
+wbrrbboo
+  wy
+  gy
+ ==> ACTION was R
+('F', 'R', 'R', 'U', 'R', 'R')
+  og
+  br
+gowybyry
+wbrybgwo
+  wo
+  gr
+ ==> ACTION was R
+('F', 'R', 'R', 'U', 'R', 'R', 'R')
+  oy
+  by
+gowobbry
+wbrrgygo
+  ww
+  gr
+ ==> ACTION was U
+('F', 'R', 'R', 'U', 'R', 'R', 'R', 'U')
+  bo
+  yy
+wobbrygo
+wbrrgygo
+  ww
+  gr
+ ==> ACTION was F
+('F', 'R', 'R', 'U', 'R', 'R', 'R', 'U', 'F')
+  bo
+  bo
+wwrbyygo
+wwrbyygo
+  gr
+  gr
+ ==> ACTION was R
+('F', 'R', 'R', 'U', 'R', 'R', 'R', 'U', 'F', 'R')
+  bb
+  bb
+wwrryyoo
+wwrryyoo
+  gg
+  gg
+
+Final Solution:  F R2 U R' U F R 
+*************************************
+5 of 5 problems (100.0 %) solved.
+Problems that remain unsolved in the set are Problems: []
+*************************************
+Would you like to enter your own cube? [y/q] (entering anything else will run premade test cases)
